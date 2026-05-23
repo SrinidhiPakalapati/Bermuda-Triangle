@@ -1,0 +1,80 @@
+body {
+    background-color:var(--cyan);
+    text-align: center;
+}
+:root {
+    --dark-blue: #041C32;
+    --astronaut-blue:#064663;
+    --cyan:#00FFF5;
+    --navy-blue:#02131F;
+}
+.heading {
+    background-color:var(--navy-blue);
+    color:white;
+    border-radius: 10px;
+    padding: 2px;
+    margin:20px;
+}
+@media(max-width:60px){
+    .heading h1{
+        font-size: 40px;
+    }
+}
+.hero {
+    background: linear-gradient(45deg, var(--dark-blue),var(--astronaut-blue));
+    padding:10px;
+    margin:20px;
+    color:aliceblue;
+    border-radius:10px;
+}
+.image{
+    animation: wobble 1s ease-in-out infinite alternate;
+}
+@keyframes wobble {
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(-20deg)}
+}
+.dissaperences {
+    background: linear-gradient(45deg, var(--dark-blue),var(--astronaut-blue));
+    padding:10px;
+    margin:20px;
+    color:aliceblue;
+    border-radius:10px;
+}
+.dissaperences {
+    display:grid;
+    grid-template-areas: 
+    "a a"
+    "b c"
+    "d c";
+    gap:10px;
+}
+.head{
+    grid-area:a;
+    background-color: var(--astronaut-blue);
+    border-radius: 10px;
+}
+.first{
+    grid-area: b;
+    background-color: var(--astronaut-blue);
+    border-radius: 10px;
+    padding: 10px;
+}
+.second{
+    grid-area: c;
+    background-color: var(--astronaut-blue);
+    border-radius: 10px;
+    padding: 10px;
+}
+.third{
+    grid-area: d;
+    background-color: var(--astronaut-blue);
+    border-radius: 10px;
+    padding: 10px;
+}
+.footer{
+    background-color: var(--navy-blue);
+    color:var(--cyan);
+    padding:10px;
+    border-radius: 20px;
+}
