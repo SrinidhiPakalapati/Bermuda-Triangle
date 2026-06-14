@@ -53,6 +53,8 @@ body {
     grid-area:a;
     background-color: var(--astronaut-blue);
     border-radius: 10px;
+    border: 2px solid;
+    border-color: black;
 }
 .first{
     grid-area: b;
@@ -77,6 +79,10 @@ body {
     background-color: var(--astronaut-blue);
     border-radius: 10px;
     padding: 10px;
+}
+.box{
+    border: 2px solid;
+    border-color: black;
 }
 .preview{
     border-radius: 20px;
