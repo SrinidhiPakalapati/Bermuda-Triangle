@@ -46,7 +46,7 @@ body {
     grid-template-areas: 
     "a a"
     "b c"
-    "d c";
+    "d e";
     gap:10px;
 }
 .head{
@@ -71,6 +71,15 @@ body {
     background-color: var(--astronaut-blue);
     border-radius: 10px;
     padding: 10px;
+}
+.fourth{
+    grid-area: e;
+    background-color: var(--astronaut-blue);
+    border-radius: 10px;
+    padding: 10px;
+}
+.preview{
+    border-radius: 20px;
 }
 .footer{
     background-color: var(--navy-blue);
