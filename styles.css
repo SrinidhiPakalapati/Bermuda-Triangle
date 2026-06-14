@@ -93,3 +93,14 @@ body {
     padding:10px;
     border-radius: 20px;
 }
+.location {
+    Background-color:var(--astronaut-blue);
+    border-radius:10px;
+    padding:10px;
+    margin:20px;
+    color:aliceblue;
+}
+.location img{
+    border-radius: 10px;
+    margin: 10px;
+}
