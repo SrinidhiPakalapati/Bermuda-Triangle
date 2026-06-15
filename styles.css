@@ -115,3 +115,13 @@ body {
     flex-direction: row;
     background-color: var(--astronaut-blue);
 }
+.videos {
+    background-color:var(--astronaut-blue);
+    padding:10px;
+    margin:20px;
+    display:flex;
+    flex-direction:row;
+}
+.videos  img{
+    border-radius:10px;
+}
