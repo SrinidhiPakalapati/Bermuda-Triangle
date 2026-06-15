@@ -121,7 +121,9 @@ body {
     margin:20px;
     display:flex;
     flex-direction:row;
+    align-items: center;
 }
 .videos  img{
     border-radius:10px;
+    height: 200px;
 }
