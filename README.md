@@ -6,7 +6,7 @@ Is it really that mysterious?? Wanted to know more?? Here comes our webpage. Thi
 ![preview image ](image-1.png)
 
 # Tech Used
-HTML
+HTML<br>
 CSS
 
 # Skills Learnt
@@ -28,3 +28,5 @@ and many more small small css techniques
 1.All the internet for giving me soo much info about bermuda triangle<br>
 2.used chatgpt for learning few css concepts<br>
 3.wikipedia<br>
+
+# Thank You!! With <3 made by @Srinidhi
